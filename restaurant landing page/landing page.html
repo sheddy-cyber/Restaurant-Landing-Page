@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover easy and delicious recipes, cooking tips, and kitchen inspiration to make every meal special.">
+    <meta name="author" content="Shedrach Kris">
+    <meta name="theme-color" content="#ffb703">
+    <meta name="robots" content="index, follow">
+    <link rel="favicon" href="https://www.vhv.rs/dpng/d/132-1322685_favicon-ico-download-free-hd-png-download.png" type="image/png">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title>Taste Naija - Authentic Nigerian Cuisine</title>
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to Shedrach's Kitchen</h1>
+        <p>Authentic Nigerian Flavours Served Fresh</p>
+        <button onclick="document.getElementById('menu').scrollIntoView({ behavior: 'smooth' })">View Menu</button>
+    </header>
+
+    <section id="menu">
+        <h2>Our Specialties</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://shorturl.at/3WkmO" alt="Jollof Rice">
+                <h3>Jollof Rice & Chicken</h3>
+                <p>Smoky party-style Jollof rice served with grilled chicken and fried plantain.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://shorturl.at/bXpKz" alt="Egusi Soup">
+                <h3>Egusi Soup & Pounded Yam</h3>
+                <p>Rich melon seed soup cooked with vegetables and assorted meats, served with pounded yam.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://shorturl.at/XWiAX" alt="Suya">
+                <h3>Spicy Beef Suya</h3>
+                <p>Perfectly spiced grilled beef skewers with onions, tomatoes, and pepper mix.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://shorturl.at/x7tBc" alt="Nkwobi">
+                <h3>Nkwobi</h3>
+                <p>Made from well-seasoned cow leg cooked in a spicy palm oil sauce.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://shorturl.at/THIjf" alt="Suya">
+                <h3>Amala and Ewedu</h3>
+                <p>Perfectly spiced grilled beef skewers with onions, tomatoes, and pepper mix.</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://www.thepretendchef.com/wp-content/uploads/2017/10/okrosoup-1.jpg" alt="Suya">
+                <h3>Okro Soup</h3>
+                <p>A quick-cooking vegetable soup and finger-licking good.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@shedrachskitchen.com</p>
+        <p>Phone: +234 905 634 4226</p>
+        <p>Address: 10, Iya Ebuka Street, Bogije, Ibeju-Lekki, Lagos</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shedrach's Kitchen. All rights reserved.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
